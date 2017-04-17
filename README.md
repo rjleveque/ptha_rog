@@ -16,7 +16,7 @@ To get the most out of these examples, you must run the notebooks so that the
 interactive widgets work.  
 
 You can either clone this repository and then use a Jupyter server
-on your computer (see the [Jupyter documentation](http://jupyter.org/),
+on your computer (see the [Jupyter documentation](http://jupyter.org/)),
 or run them on the cloud (see below).
 
 If you run them, make sure that you uncomment the line
@@ -28,6 +28,8 @@ and comment out the line
     from interact import interact
 
 in order to get live widgets. The latter is used to produce figures that can be viewed from the Github webpage.
+
+You can execute a single cell using `Shift-Enter`, or select `Run all` from the `Cell` menu to execute all cells and activate all widgets.
 
 ### Run on binder
 
