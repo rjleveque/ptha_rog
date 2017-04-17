@@ -1,8 +1,8 @@
 # ptha_rog
 Draft notebooks for review paper on PTHA
 
-Open the notebook `Contents.ipynb` for the suggested order to view the other
-notebooks.
+Open the notebook [Contents.ipynb](Contents.ipynb) 
+for the suggested order to view the other notebooks.
 
 ### View on Github
 
