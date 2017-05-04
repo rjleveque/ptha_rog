@@ -1,7 +1,7 @@
 # ptha_rog
 Draft notebooks for review paper on PTHA
 
-Open the notebook [Contents.ipynb](Contents.ipynb) 
+Open the notebook [Index.ipynb](Index.ipynb) 
 for the suggested order to view the other notebooks.
 
 ### View on Github
@@ -25,7 +25,7 @@ If you run them, make sure that you uncomment the line
 
 and comment out the line
 
-    from interact import interact
+    from snapshot_widgets import interact
 
 in order to get live widgets. The latter is used to produce figures that can be viewed from the Github webpage.
 
