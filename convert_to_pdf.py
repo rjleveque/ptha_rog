@@ -1,13 +1,19 @@
+"""
+Convert notebooks to pdf format with header text containing
+title and authors of main publication.
+"""
 
+from __future__ import print_function
 import re
 import subprocess
 import os, sys
 
+os.system('mkdir -p pdf_versions')  # create directory 
 
 notebooks = ['Index',
              'Hazard_Curves',
+             'Hazard_Maps',
              'Make_Hazard_Curves_and_Maps']
-#notebooks = ['Hazard_Maps']
 
 title_text = str(r"""
 
@@ -70,3 +76,5 @@ for i, notebook in enumerate(notebooks):
     subprocess.check_call(args)
     
 
+os.system('mv *.pdf pdf_versions')
+print('Created pdf versions and moved them to subdirectory pdf_versions')
