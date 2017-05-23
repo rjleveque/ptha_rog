@@ -13,5 +13,3 @@ for f in Index Hazard_Curves Hazard_Maps Make_Hazard_Curves_and_Maps
 
     done
 
-# Move to web server for viewing:
-#scp html_versions/* rjl@homer.u.washington.edu:public_html/ptha_rog/
