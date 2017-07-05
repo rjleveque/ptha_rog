@@ -20,26 +20,21 @@ title_text = str(r"""
  \newcommand{\altaffilmark}[1]{}
 
  \begin{centering}
-{\LARGE Supporting Information for "Probabilistic Tsunami Hazard Analysis
+{\Large Supporting Information for }
+\vskip 5pt
+{\LARGE Probabilistic Tsunami Hazard Analysis
 (PTHA): multiple sources and global applications}
 
 
-\vskip 10pt
-{Andrey Babeyko\altaffilmark{1}, Maria Ana Baptista\altaffilmark{2}, J\"{o}rn
-Behrens\altaffilmark{3}, Antonio Costa\altaffilmark{4}, Gareth
-Davies\altaffilmark{5}, Eric L. Geist\altaffilmark{6}, Sylfest
-Glimsdal\altaffilmark{7}, Frank I. Gonz\'{a}lez\altaffilmark{8}, Jonathan
-Griffin\altaffilmark{5}, Carl B. Harbitz\altaffilmark{9}, Randall J.
-LeVeque\altaffilmark{8}, Stefano Lorito\altaffilmark{10}, Finn
-L{\o}vholt\altaffilmark{7}, Rachid Omira\altaffilmark{2}, Christof
-Mueller\altaffilmark{11}, Rapha\"{e}l Paris\altaffilmark{12}, Tom
-Parsons\altaffilmark{6}, Jascha Polet\altaffilmark{13}, William
-Power\altaffilmark{11}, Jacopo Selva\altaffilmark{4}, Mathilde B.
-S{\o}rensen\altaffilmark{14}, Hong Kie Thio\altaffilmark{15}, Anita
-Grezio\altaffilmark{4}}
 
-\vskip 10pt
-{\Large \color{blue} Jupyter notebook output from {\tt Index.ipynb}}
+\vskip 15pt
+{\Large \color{blue} 
+PTHA Tutorial
+\vskip 5pt
+Jupyter notebook output from {\tt Index.ipynb}
+\vskip 5pt
+Original notebooks and data can be found at\\
+\url{https://doi.org/10.5281/zenodo.816290}.  }
 
 \end{centering}
 
@@ -74,6 +69,7 @@ for i, notebook in enumerate(notebooks):
             
     args = ["pdflatex", latex_filename]
     subprocess.check_call(args)
+    subprocess.check_call(args) 
     
 
 os.system('mv *.pdf pdf_versions')
