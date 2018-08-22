@@ -1,5 +1,10 @@
 # ptha_rog
-Draft notebooks for review paper on PTHA
+Jupyter notebooks illustrating some key ideas from probabalistic tsunami hazard analysis.  Developed to accompany the paper
+
+*Probabilistic Tsunami Hazard Analysis: Multiple Sources and Global Applications,*
+by Anita Grezio, Andrey Babeyko, Maria Ana Baptista, Joern Behrens, Antonio Costa, Gareth Davies, Eric L. Geist, Sylfest Glimsdal, Frank I. Gonzalez, Jonathan Griffin, Carl B. Harbitz, Randall J. LeVeque, Stefano Lorito, Finn Lovholt, Rachid Omira, Christof Mueller, Raphael Paris, Tom Parsons, Jascha Polet William Power, Jacopo Selva, Mathilde B. Sorensen, and Hong Kie Thio, Reviews of Geophysics 55 (2017), pp. 1158-1198.  https://doi.org/10.1002/2017RG000579
+
+These notebooks are also archived at https://zenodo.org/record/816291#.W32K2ZNKhE4 with DOI 10.5281/zenodo.816291.
 
 Open the notebook [Index.ipynb](Index.ipynb) 
 for the suggested order to view the other notebooks.
